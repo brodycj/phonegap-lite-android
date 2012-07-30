@@ -1,7 +1,13 @@
-PhoneGap Android
+PhoneGap-lite Android
 ===
 
 PhoneGap Android is an Android application library that allows for PhoneGap based projects to be built for the Android Platform. PhoneGap based applications are, at the core, an application written with web technology: HTML, CSS and JavaScript. 
+
+PhoneGap-lite for Android is an adaptation with all built-in plugin classes removed except for the Android Device plugin. This project is based on [brycecurtis / callback-android](https://github.com/brycecurtis/callback-android) as of October 2011 so it should be OK to use it under the MIT, BSD, or Apache 2.0 licenses.
+
+## Status
+
+There is a test project under `sqlite-test-1` to test that this is working with [chbrody / Cordova-SQLitePlugin](https://github.com/chbrody/Cordova-SQLitePlugin). A couple small adaptations are hacked in the SQLitePlugin, until some proper adaptor classes are added to this project.
 
 Requires
 ---
